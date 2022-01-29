@@ -1,10 +1,11 @@
 import React from 'react';
+import SearchRepos from './SearchRepos';
 
 const App = () => {
   return (
-      <div>
-        Hello World
-      </div>
+    <div>
+      <SearchRepos/>
+    </div>
   )
 };
 export default App;
